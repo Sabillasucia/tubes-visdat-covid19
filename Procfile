@@ -1,2 +1,1 @@
-web: python tubesvisdat_1301194127_1301194347.py
-worker: python tubesvisdat_1301194127_1301194347.py
+web: bokeh serve --port=$PORT --allow-websocket-origin=statistiktotalkasuscovid.herokuapp.com --address=0.0.0.0 --use-xheaders tubesvisdat_1301194127_1301194347.py
